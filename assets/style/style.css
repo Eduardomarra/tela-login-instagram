@@ -1,0 +1,238 @@
+/**** GLOBAL ****/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FAFAFA;
+}
+.height-phone{
+    height: 550px;
+}
+.height-phone.white{
+    height: 580px;
+}
+
+/**** MAIN ****/
+.container{
+    width: 750px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/**** PHONES ****/
+.phone{
+    width: 400px;
+    height: 100%;
+    position: relative;
+}
+.phone-back img{
+    position: absolute;
+    top: 49px;
+    left: 0px;
+}
+#feed1{
+    position: absolute;
+    top: 130px;
+    left: 22px;
+    width: 220px; 
+}
+.phone-front img{
+    position: absolute;
+    top: 55px;
+    left: 70px;
+}
+#feed2{
+    position: absolute;
+    top: 148px;
+    left: 93px;
+    width: 247px;
+    height: 371px;
+}
+
+/*** SIGN-IN ****/
+.login, .noAccount{
+    border: 1px solid rgb(224, 220, 220);
+    border-radius: 2px; 
+}
+.signIn{
+    text-align: center;
+}
+.login{
+    height: 378px;
+    width: 360px;
+    background-color: white;
+}
+.login h1{
+    font-family: 'Lobster', cursive;
+    font-size: 2.7rem;
+    font-weight: 200;
+    margin: 30px 0 25px 0;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 15px 0;
+}
+.login form input[type = text]{
+    width: 260px;
+    height: 35px;
+    margin-bottom: 10px;
+    background-color: #FAFAFA;
+    border: 1px solid rgb(187, 185, 185);
+    padding: 5px;
+    outline: none;
+}
+.login form input::-webkit-input-placeholder{
+    font-size: 0.7rem;
+}
+.login form input[type = button]{
+    height: 30px;
+    width: 260px;
+    color: white;
+    font-weight: bold;
+    background-color: #B2DFFC;
+    border: none;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.login h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.75rem;
+    color: rgb(187, 185, 185);
+    margin: 30px 0;
+}
+.login h3::after, .login h3::before{
+    content: "";
+    display: inline-block;
+    width: 110px;
+    height: 1px;
+    background-color: rgb(187, 185, 185);
+    margin-bottom: 3px;
+}
+.login h3::after{
+    margin-left: 10px;
+}
+.login h3::before{
+    margin-right: 10px;
+}
+.login p#face {
+    margin-bottom: 20px;
+}
+.login p#face a{
+    font-size: 0.9rem;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: #385185;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.fa-facebook-square{
+    margin-right: 5px;
+}
+.login p#senha a{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: rgb(100, 111, 148);
+    font-weight: 400;
+}
+.noAccount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 30px 0;
+    height: 60px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.8rem;
+    background-color: white;
+}
+.noAccount p a{
+    margin-left: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0095F6;
+}
+.storeApp p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.storeImg img{
+    width: 130px;
+    height: 40px;
+    margin: 20px 5px 0 0;
+}
+
+/**** FOOTER ****/
+footer{
+    position: relative;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+}
+footer nav ul{
+    display: flex;
+}
+.navInstagram ul li, .navFeeds ul li{
+    margin: 0 10px 5px 10px;
+}
+.navInstagram ul li a, .navFeeds ul li a{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(142, 142, 142, 1);
+}
+.language{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(142, 142, 142, 1);
+    margin-top: 10px;
+}
+.language select{
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(142, 142, 142, 1);
+    margin-right: 20px;
+}
+.language a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(142, 142, 142, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
